@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mulah Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-size: 55px">MULAH</h1>
+    <h2 style="font-size: 55px; margin-top: 60px">Registration</h2>
+    <p><i>Please fill up your details.</i></p>
+    <br>
+    <form id="registrationDetails">
+        <label for="name" style="color: rgb(94, 92, 92); margin-top: 25px">Name</label><br>
+        <input type="text" id="name" style="font-size: 22px; color: rgb(82, 80, 80); border-radius: 9px" required placeholder="Enter Name">
+        <div class="birthday-input">
+        <label for="birthday" style="color: rgb(94, 92, 92); margin-top: 50px">Birthday</label><br>
+          <input type="number" id="day" style="font-size: 22px; color: rgb(82, 80, 80); border-radius: 9px" min="1" max="31" required placeholder="DD">
+          <input type="number" id="month" style="font-size: 22px; color: rgb(82, 80, 80); border-radius: 9px" min="1" max="12" required placeholder="MM">
+          <input type="number" id="year" style="font-size: 22px; color: rgb(82, 80, 80); border-radius: 9px" min="1900" max="2024" required placeholder="YYYY">
+        </div>
+        <label for="email" style="color: rgb(94, 92, 92); margin-top: 25px">Email</label><br>
+        <input type="email" id="email" style="font-size: 22px; color: rgb(82, 80, 80); border-radius: 9px" required placeholder="Email Address"><br>
+        <input type="checkbox" id="noEmail" name="noEmail">
+        <label for="noEmail" style="font-size: 16px; color: rgb(106, 106, 106)"><i>No email address</i></label>
+    </form>
+    <button type="button" id="continueButton" class="orange-button">Continue</button>
+    <hr>
+    <div id="footer" style="margin-top: 60px"><span style="color:rgb(145, 142, 142)">Powered by</span><span style="color:rgb(49, 97, 165)"> MulahRewards.com</span></div>
+  <script src="script.js"></script>
+</body>
+</html>
