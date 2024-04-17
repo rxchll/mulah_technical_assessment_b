@@ -39,6 +39,6 @@ document.getElementById('continueButton').addEventListener('click', function () 
     if (name != '' && day != '' && month != '' && year != '' && (email != '' || noEmailChecked)) {
         window.location.href = 'Page3.html';
     } else {
-        alert("Unable");
+        alert("Unable to proceed to Page 3.");
     }
 });
